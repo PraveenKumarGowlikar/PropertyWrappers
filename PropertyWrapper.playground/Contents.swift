@@ -103,6 +103,6 @@ struct RegistrationValidation {
     }
 }
 
-let _registrationValidation = RegistrationValidation.init(email: EmailPropertyWrapper(_emailValue: "pk@pg.com"), mobile: MobilePropertyWrapper.init(_mobile: "9876543210"))
+let _registrationValidation = RegistrationValidation.init(email: EmailPropertyWrapper(_emailValue: "praveengowlikar@develper.com"), mobile: MobilePropertyWrapper.init(_mobile: "9876543210"))
 _registrationValidation.registerUser()
 
